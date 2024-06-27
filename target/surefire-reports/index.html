@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-skipped">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,  16 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_004_ValidateAllSearchResultsTest" class="method navigator-link" hash-for-method="ThreeWeeksVerification">ThreeWeeksVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_002_Validate3WeeksDetailsTest" class="method navigator-link" hash-for-method="ThreeWeeksVerification">ThreeWeeksVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_003_ValidateCurrentDateDetailsTest" class="method navigator-link" hash-for-method="ThreeWeeksVerification">ThreeWeeksVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_001_UserDetailsTest" class="method navigator-link" hash-for-method="userVerification">userVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_002_Validate3WeeksDetailsTest" class="method navigator-link" hash-for-method="userVerification">userVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_004_ValidateAllSearchResultsTest" class="method navigator-link" hash-for-method="userVerification">userVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_003_ValidateCurrentDateDetailsTest" class="method navigator-link" hash-for-method="userVerification">userVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_004_ValidateAllSearchResultsTest" class="method navigator-link" hash-for-method="verifyAlertSearchStatus(Overdue)">verifyAlertSearchStatus(Overdue)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_004_ValidateAllSearchResultsTest" class="method navigator-link" hash-for-method="verifyAlertSearchStatus(Partially Approved)">verifyAlertSearchStatus(Partially Approved)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_004_ValidateAllSearchResultsTest" class="method navigator-link" hash-for-method="verifyAlertSearchStatus(Submitted for Approval)">verifyAlertSearchStatus(Submitted for Approval)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_004_ValidateAllSearchResultsTest" class="method navigator-link" hash-for-method="verifyAlertSearchStatus(Sent Back for Revision)">verifyAlertSearchStatus(Sent Back for Revision)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_004_ValidateAllSearchResultsTest" class="method navigator-link" hash-for-method="verifyAlertSearchStatus(Saved)">verifyAlertSearchStatus(Saved)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_004_ValidateAllSearchResultsTest" class="method navigator-link" hash-for-method="verifyApprovedStatusResult(Approved)">verifyApprovedStatusResult(Approved)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_004_ValidateAllSearchResultsTest" class="method navigator-link" hash-for-method="verifyCurrentDateDetails">verifyCurrentDateDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_003_ValidateCurrentDateDetailsTest" class="method navigator-link" hash-for-method="verifyCurrentDateDetails">verifyCurrentDateDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="TestCase.TC_004_ValidateAllSearchResultsTest" class="method navigator-link" hash-for-method="verifyPendingStatusResult(Pending)">verifyPendingStatusResult(Pending)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCase.TC_001_UserDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userVerification">
+                  </a> <!-- userVerification -->
+                  <span class="method-name">userVerification</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCase.TC_002_Validate3WeeksDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ThreeWeeksVerification">
+                  </a> <!-- ThreeWeeksVerification -->
+                  <span class="method-name">ThreeWeeksVerification</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userVerification">
+                  </a> <!-- userVerification -->
+                  <span class="method-name">userVerification</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCase.TC_004_ValidateAllSearchResultsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ThreeWeeksVerification">
+                  </a> <!-- ThreeWeeksVerification -->
+                  <span class="method-name">ThreeWeeksVerification</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userVerification">
+                  </a> <!-- userVerification -->
+                  <span class="method-name">userVerification</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAlertSearchStatus(Overdue)">
+                  </a> <!-- verifyAlertSearchStatus(Overdue) -->
+                  <span class="method-name">verifyAlertSearchStatus</span>
+                  <span class="parameters">(Overdue)</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAlertSearchStatus(Partially Approved)">
+                  </a> <!-- verifyAlertSearchStatus(Partially Approved) -->
+                  <span class="method-name">verifyAlertSearchStatus</span>
+                  <span class="parameters">(Partially Approved)</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAlertSearchStatus(Submitted for Approval)">
+                  </a> <!-- verifyAlertSearchStatus(Submitted for Approval) -->
+                  <span class="method-name">verifyAlertSearchStatus</span>
+                  <span class="parameters">(Submitted for Approval)</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAlertSearchStatus(Sent Back for Revision)">
+                  </a> <!-- verifyAlertSearchStatus(Sent Back for Revision) -->
+                  <span class="method-name">verifyAlertSearchStatus</span>
+                  <span class="parameters">(Sent Back for Revision)</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAlertSearchStatus(Saved)">
+                  </a> <!-- verifyAlertSearchStatus(Saved) -->
+                  <span class="method-name">verifyAlertSearchStatus</span>
+                  <span class="parameters">(Saved)</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApprovedStatusResult(Approved)">
+                  </a> <!-- verifyApprovedStatusResult(Approved) -->
+                  <span class="method-name">verifyApprovedStatusResult</span>
+                  <span class="parameters">(Approved)</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCurrentDateDetails">
+                  </a> <!-- verifyCurrentDateDetails -->
+                  <span class="method-name">verifyCurrentDateDetails</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPendingStatusResult(Pending)">
+                  </a> <!-- verifyPendingStatusResult(Pending) -->
+                  <span class="method-name">verifyPendingStatusResult</span>
+                  <span class="parameters">(Pending)</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCase.TC_003_ValidateCurrentDateDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ThreeWeeksVerification">
+                  </a> <!-- ThreeWeeksVerification -->
+                  <span class="method-name">ThreeWeeksVerification</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userVerification">
+                  </a> <!-- userVerification -->
+                  <span class="method-name">userVerification</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCurrentDateDetails">
+                  </a> <!-- verifyCurrentDateDetails -->
+                  <span class="method-name">verifyCurrentDateDetails</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.TC_001_UserDetailsTest&quot;/&gt;
+      &lt;class name=&quot;TestCase.TC_002_Validate3WeeksDetailsTest&quot;/&gt;
+      &lt;class name=&quot;TestCase.TC_003_ValidateCurrentDateDetailsTest&quot;/&gt;
+      &lt;class name=&quot;TestCase.TC_004_ValidateAllSearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'userVerification')
+data.setCell(0, 2, 'TestCase.TC_003_ValidateCurrentDateDetailsTest')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'userVerification')
+data.setCell(1, 2, 'TestCase.TC_001_UserDetailsTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAlertSearchStatus')
+data.setCell(2, 2, 'TestCase.TC_004_ValidateAllSearchResultsTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyPendingStatusResult')
+data.setCell(3, 2, 'TestCase.TC_004_ValidateAllSearchResultsTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'userVerification')
+data.setCell(4, 2, 'TestCase.TC_002_Validate3WeeksDetailsTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyApprovedStatusResult')
+data.setCell(5, 2, 'TestCase.TC_004_ValidateAllSearchResultsTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyAlertSearchStatus')
+data.setCell(6, 2, 'TestCase.TC_004_ValidateAllSearchResultsTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyAlertSearchStatus')
+data.setCell(7, 2, 'TestCase.TC_004_ValidateAllSearchResultsTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'userVerification')
+data.setCell(8, 2, 'TestCase.TC_004_ValidateAllSearchResultsTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ThreeWeeksVerification')
+data.setCell(9, 2, 'TestCase.TC_004_ValidateAllSearchResultsTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyCurrentDateDetails')
+data.setCell(10, 2, 'TestCase.TC_004_ValidateAllSearchResultsTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ThreeWeeksVerification')
+data.setCell(11, 2, 'TestCase.TC_002_Validate3WeeksDetailsTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ThreeWeeksVerification')
+data.setCell(12, 2, 'TestCase.TC_003_ValidateCurrentDateDetailsTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyAlertSearchStatus')
+data.setCell(13, 2, 'TestCase.TC_004_ValidateAllSearchResultsTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyCurrentDateDetails')
+data.setCell(14, 2, 'TestCase.TC_003_ValidateCurrentDateDetailsTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyAlertSearchStatus')
+data.setCell(15, 2, 'TestCase.TC_004_ValidateAllSearchResultsTest')
+data.setCell(15, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

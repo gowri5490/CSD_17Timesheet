@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-07T13:55:56 IST" name="Suite" finished-at="2024-06-07T13:58:08 IST" duration-ms="131955">
+    <groups>
+    </groups>
+    <test started-at="2024-06-07T13:55:56 IST" name="Chrome Test" finished-at="2024-06-07T13:58:08 IST" duration-ms="131955">
+      <class name="TestCase.TC_004_ValidateAllSearchResultsTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:55:56 IST" name="beforeTest" finished-at="2024-06-07T13:56:06 IST" duration-ms="9120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="userVerification()[pri:0, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:56:06 IST" name="userVerification" finished-at="2024-06-07T13:56:17 IST" duration-ms="11863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userVerification -->
+        <test-method signature="ThreeWeeksVerification()[pri:1, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:56:18 IST" name="ThreeWeeksVerification" finished-at="2024-06-07T13:56:49 IST" duration-ms="31039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThreeWeeksVerification -->
+        <test-method signature="verifyCurrentDateDetails()[pri:2, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:56:49 IST" name="verifyCurrentDateDetails" finished-at="2024-06-07T13:57:01 IST" duration-ms="12783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrentDateDetails -->
+        <test-method signature="verifyApprovedStatusResult(java.lang.String)[pri:3, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:57:01 IST" name="verifyApprovedStatusResult" data-provider="testData1" finished-at="2024-06-07T13:57:07 IST" duration-ms="5542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Approved]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApprovedStatusResult -->
+        <test-method signature="verifyPendingStatusResult(java.lang.String)[pri:4, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:57:07 IST" name="verifyPendingStatusResult" data-provider="testData2" finished-at="2024-06-07T13:57:13 IST" duration-ms="6458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pending]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPendingStatusResult -->
+        <test-method signature="verifyAlertSearchStatus(java.lang.String)[pri:5, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:57:13 IST" name="verifyAlertSearchStatus" data-provider="testData3" finished-at="2024-06-07T13:57:22 IST" duration-ms="8690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Overdue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertSearchStatus -->
+        <test-method signature="verifyAlertSearchStatus(java.lang.String)[pri:5, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:57:22 IST" name="verifyAlertSearchStatus" data-provider="testData3" finished-at="2024-06-07T13:57:31 IST" duration-ms="8720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Partially Approved]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertSearchStatus -->
+        <test-method signature="verifyAlertSearchStatus(java.lang.String)[pri:5, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:57:31 IST" name="verifyAlertSearchStatus" data-provider="testData3" finished-at="2024-06-07T13:57:40 IST" duration-ms="8675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saved]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertSearchStatus -->
+        <test-method signature="verifyAlertSearchStatus(java.lang.String)[pri:5, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:57:40 IST" name="verifyAlertSearchStatus" data-provider="testData3" finished-at="2024-06-07T13:57:48 IST" duration-ms="8648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sent Back for Revision]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertSearchStatus -->
+        <test-method signature="verifyAlertSearchStatus(java.lang.String)[pri:5, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:57:48 IST" name="verifyAlertSearchStatus" data-provider="testData3" finished-at="2024-06-07T13:57:57 IST" duration-ms="8829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Submitted for Approval]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertSearchStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.TC_004_ValidateAllSearchResultsTest@69e153c5]" started-at="2024-06-07T13:57:57 IST" name="tearDown" finished-at="2024-06-07T13:58:08 IST" duration-ms="11096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.TC_004_ValidateAllSearchResultsTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>

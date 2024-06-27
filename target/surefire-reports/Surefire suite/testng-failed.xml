@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="TestCase.TC_001_UserDetailsTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="userVerification"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCase.TC_001_UserDetailsTest -->
+      <class name="TestCase.TC_002_Validate3WeeksDetailsTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="ThreeWeeksVerification"/>
+          <include name="userVerification"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCase.TC_002_Validate3WeeksDetailsTest -->
+      <class name="TestCase.TC_004_ValidateAllSearchResultsTest">
+        <methods>
+          <include name="verifyApprovedStatusResult"/>
+          <include name="beforeTest"/>
+          <include name="ThreeWeeksVerification"/>
+          <include name="verifyAlertSearchStatus"/>
+          <include name="verifyPendingStatusResult"/>
+          <include name="verifyCurrentDateDetails"/>
+          <include name="userVerification"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCase.TC_004_ValidateAllSearchResultsTest -->
+      <class name="TestCase.TC_003_ValidateCurrentDateDetailsTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="ThreeWeeksVerification"/>
+          <include name="userVerification"/>
+          <include name="verifyCurrentDateDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCase.TC_003_ValidateCurrentDateDetailsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
